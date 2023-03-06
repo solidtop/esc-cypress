@@ -8,7 +8,8 @@
     "sass": "sass --no-source-map src/main.scss static/main.css",
     "watch": "sass --no-source-map --watch src/main.scss static/main.css",
     "build": "webpack",
-    "watch-js": "webpack --watch"
+    "watch-js": "webpack --watch",
+    "cypress:open": "cypress open"
   },
   "author": "",
   "license": "ISC",
